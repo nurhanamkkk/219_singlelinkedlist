@@ -105,8 +105,8 @@ void addNote() {
         if (listEmpty()) {
             cout << "List Kosong" << endl;
             system ("pause");
-            system ("clls");
-            return;
+            system ("cls");
+            retun;
         }
         else {
             int nim;
