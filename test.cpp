@@ -88,7 +88,7 @@ void addNote() {
 
      void traverse () {
         if (listEmpty()) {
-            cout << "List Kosng" << endl;
+            cout << "List Kosong" << endl;
             system ("pause");
             system ("cls");
             return;
@@ -103,7 +103,7 @@ void addNote() {
      }
      void searchData() {
         if (listEmpty()) {
-            cout << "List Kosong" << endl;
+            cout << "LisKosong" << endl;
             system ("pause");
             system ("cls");
             return;
