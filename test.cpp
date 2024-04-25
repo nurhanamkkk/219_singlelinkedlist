@@ -73,7 +73,7 @@ void addNote() {
      }
      bool deleteNode(int nik) {
         Node* current = START;
-        Node* previous =START;
+        Node* previous =STAR;
         if (current == START)
              START = current->next;
              return true;
