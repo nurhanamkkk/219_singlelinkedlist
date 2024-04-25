@@ -15,7 +15,7 @@ void addNote() {
     Node* nodeBaru = new Node() ;
     cout<< "Masukkan NIM : ";
      cin >> nim;
-     cout << "Masukkan Nama: ";
+     cout << "Masukkn Nama: ";
      cin >> nama;
      nodeBaru->noMhs = nim;
      nodeBaru->name = nama;
@@ -109,7 +109,7 @@ void addNote() {
             return;
         }
         else {
-            innim;
+            int nim;
             cout << "Masukkan NIM: ";
             cin >> nim;
             Node* currentNode = START;
