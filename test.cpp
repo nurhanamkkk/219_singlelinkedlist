@@ -103,8 +103,8 @@ void addNote() {
      }
      void searchData() {
         if (listEmpty()) {
-            cout << "LisKosong" << endl;
-            system ("pause");
+            cout << "List Kosong" << endl;
+            system ("pase");
             system ("cls");
             return;
         }
