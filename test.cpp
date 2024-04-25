@@ -106,10 +106,10 @@ void addNote() {
             cout << "List Kosong" << endl;
             system ("pause");
             system ("cls");
-            retun;
+            return;
         }
         else {
-            int nim;
+            innim;
             cout << "Masukkan NIM: ";
             cin >> nim;
             Node* currentNode = START;
