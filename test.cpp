@@ -104,8 +104,8 @@ void addNote() {
      void searchData() {
         if (listEmpty()) {
             cout << "List Kosong" << endl;
-            system ("pase");
-            system ("cls");
+            system ("pause");
+            system ("clls");
             return;
         }
         else {
