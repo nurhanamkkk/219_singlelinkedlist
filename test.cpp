@@ -9,9 +9,9 @@ struct Node {
 
 Node* START = NULL;
 
-void addNote() {
+voiaddNote() {
     int nim;
-    strin nama;
+    string nama;
     Node* nodeBaru = new Node() ;
     cout<< "Masukkan NIM : ";
      cin >> nim;
