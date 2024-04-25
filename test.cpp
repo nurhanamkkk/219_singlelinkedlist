@@ -11,11 +11,11 @@ Node* START = NULL;
 
 void addNote() {
     int nim;
-    string nama;
+    strin nama;
     Node* nodeBaru = new Node() ;
     cout<< "Masukkan NIM : ";
      cin >> nim;
-     cout << "Masukkan Nma: ";
+     cout << "Masukkan Nama: ";
      cin >> nama;
      nodeBaru->noMhs = nim;
      nodeBaru->name = nama;
