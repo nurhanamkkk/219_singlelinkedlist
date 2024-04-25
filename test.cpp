@@ -80,7 +80,7 @@ void addNote() {
      }
      bool listEmpty(){
         if (START ==NULL)
-            return tru;
+            return true;
         else
             return false;
 
@@ -88,7 +88,7 @@ void addNote() {
 
      void traverse () {
         if (listEmpty()) {
-            cout << "List Kosong" << endl;
+            cout << "List Kosng" << endl;
             system ("pause");
             system ("cls");
             return;
